@@ -1,0 +1,4 @@
+system:
+  aco: true
+  disable_compositor: true
+  gamemode: true

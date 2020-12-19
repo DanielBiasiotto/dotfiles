@@ -1,0 +1,17 @@
+configuration {
+	show-icons: true;
+	icon-theme: "Papirus";
+	lines: 5;
+	columns: 1;
+	font: "SF Display 14";
+	bw: 0;
+	padding: 500;
+	eh: 1;
+	auto-select: false;
+	sidebar-mode: false;
+	line-margin: 0;
+	separator-style: "solid";
+	hide-scrollbar: true;
+	width: 200;
+	theme: "~/.cache/wal/my-rofi.rasi";
+}

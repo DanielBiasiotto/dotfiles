@@ -1,0 +1,12 @@
+game:
+  arch: auto
+  exe: /home/dan/Games/Hades.v1.36090/Launch.exe
+  working_dir: ~/Games/Hades.v1.36090
+system: {}
+wine:
+  Desktop: true
+  OffscreenRenderingMode: backbuffer
+  WineDesktop: 1024x768
+  dxvk_version: 1.7L-84bb768
+  esync: true
+  x360ce-path: ~/Games/Hades.v1.36090

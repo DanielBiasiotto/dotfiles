@@ -1,0 +1,4 @@
+audio_quality = medium
+control_proxy = http:/54.183.216.150:3128
+password = dany.pandora
+user = dany.biasi8@gmail.com

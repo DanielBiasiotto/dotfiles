@@ -1,0 +1,8 @@
+game:
+  exe: /home/dan/Games/RimWorld.v1.2.2753/RimWorldWin64.exe
+  working_dir: ~/Games/RimWorld.v1.2.2753
+system: {}
+wine:
+  dxvk_version: 1.7L-84bb768
+  esync: true
+  system_winetricks: true

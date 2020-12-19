@@ -1,0 +1,5 @@
+game:
+  exe: /home/dan/Games/Stardew.Valley.v1.4.5/Stardew Valley.exe
+  working_dir: ~/Games/Stardew.Valley.v1.4.5
+system: {}
+wine: {}

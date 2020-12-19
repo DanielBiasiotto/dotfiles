@@ -1,0 +1,9 @@
+game:
+  exe: /home/dan/Games/Factorio.v0.18.10/bin/x64/factorio.exe
+  working_dir: ~/Games/Factorio.v0.18.10
+system:
+  disable_compositor: true
+wine:
+  dxvk_version: 1.7L-84bb768
+  esync: false
+  system_winetricks: true

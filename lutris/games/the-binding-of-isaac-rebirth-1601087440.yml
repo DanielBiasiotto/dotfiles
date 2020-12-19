@@ -1,0 +1,12 @@
+game:
+  exe: /home/dan/Games/The.Binding.of.Isaac.Afterbirth.Plus.Update.22/isaac-ng.exe
+  working_dir: ~/Games/The.Binding.of.Isaac.Afterbirth.Plus.Update.22
+system: {}
+wine:
+  dxvk_version: 1.7L-56fe52c
+  esync: true
+  fsync: false
+  system_winetricks: true
+  x360ce-dinput: false
+  x360ce-path: ~/Games/The.Binding.of.Isaac.Afterbirth.Plus.Update.22
+  x360ce-xinput9: true
