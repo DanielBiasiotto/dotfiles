@@ -3,9 +3,10 @@
 #   double borders
 #
 . "${HOME}/.cache/wal/colors.sh"
-outer='0x201515'   # outer
-inner1='0xFDB057'  # focused
-inner2='0xBA430C'  # normal
+
+outer='0x2E3440'   # outer
+inner1='0x8F417D'  # focused
+inner2='0x616893'  # normal
 
 targets() {
 	case $1 in

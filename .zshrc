@@ -3,6 +3,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/dan/.oh-my-zsh"
+
+fpath+=$HOME/.zsh/pure
 path+=/home/dan/.emacs.d/bin
 path+=/home/dan/.local/bin
 export PATH
@@ -11,7 +13,7 @@ export PATH
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="nanotech"
+ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,7 +73,7 @@ ZSH_THEME="nanotech"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo battery emacs z)
+plugins=(git zsh-syntax-highlighting colored-man-pages command-not-found emacs zsh-autosuggestions sudo)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,4 +107,5 @@ alias emacs="emacsclient -c"
 
 (cat ~/.cache/wal/sequences &)
 
-export LC_ALL="en_US.UTF-8"
+autoload -U promptinit; promptinit
+prompt pure

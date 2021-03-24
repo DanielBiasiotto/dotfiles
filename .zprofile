@@ -1,2 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 startx
-path += ~/.emacs.d/bin/
